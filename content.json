@@ -1,0 +1,32 @@
+{
+  "comment": "Gyan Sthali Public School - Kalajharia, Jamtara, Jharkhand",
+  "verified_by_udise": {
+    "udiseCode": "20191509702",
+    "schoolName": "Gyan Sthali Public School",
+    "googleMapsName": "Gyan Sthali Public School Kalajharia",
+    "established": 2007,
+    "address": "Kalajharia-1, Karmatanr Vidyasagar, Jamtara, Jharkhand - 815352",
+    "category": "Primary with Upper Primary (LKG - VIII)",
+    "type": "Co-educational",
+    "area": "Rural",
+    "coordinates": {
+      "latitude": 24.0367304,
+      "longitude": 86.7323
+    },
+    "googleMapsUrl": "https://maps.app.goo.gl/A86E4pZyvebdmsZc9",
+    "googlePlaceIdHex": "0x39f6cda815063115:0x4ecc4b8bf3267e17"
+  },
+  "important_notes": {
+    "affiliation": "Verification pending with management [EDIT]. Do not claim unverified JAC or CBSE affiliation.",
+    "classes": "LKG to Class VIII",
+    "entryClass": "LKG (Entry class, ~30-40 seats, 25% RTE quota under Samagra Shiksha Jamtara)",
+    "platformArchitect": "Uddipta Tech Solution"
+  },
+  "contact": {
+    "phone": "[EDIT] +91 98765 43210",
+    "whatsapp": "[EDIT] +91 98765 43210",
+    "email": "[EDIT] info@gyansthalischool.edu.in",
+    "officeHours": "Monday – Saturday: 8:00 AM – 2:30 PM",
+    "schoolTimings": "7:30 AM – 1:30 PM (Summer) | 8:30 AM – 2:30 PM (Winter)"
+  }
+}

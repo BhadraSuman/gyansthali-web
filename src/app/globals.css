@@ -1,26 +1,167 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #132a54;
+  --primary-dark: #00153a;
+  --primary-light: #1e3a8a;
+  --secondary: #d97706;
+  --secondary-hover: #b45309;
+  --tertiary: #047857;
+  --surface: #fdfbf7;
+  --surface-container: #e7eeff;
+  --surface-container-high: #dee8ff;
+  --card: #ffffff;
+  --ink: #1e293b;
+  --ink-muted: #44474f;
+  --ink-subtle: #757780;
+  --border-soft: #e8e3da;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-primary: #132a54;
+  --color-primary-dark: #00153a;
+  --color-primary-light: #1e3a8a;
+  --color-secondary: #d97706;
+  --color-secondary-hover: #b45309;
+  --color-tertiary: #047857;
+  --color-surface: #fdfbf7;
+  --color-card: #ffffff;
+  --color-border: #e8e3da;
+  --color-ink: #1e293b;
+  --color-ink-muted: #44474f;
+  --color-ink-subtle: #757780;
+  
+  --font-serif: var(--font-newsreader), Georgia, serif;
+  --font-sans: var(--font-outfit), system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Base resets & typography */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent auto-zoom on iOS safari while tapping input fields */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), Georgia, serif;
+  letter-spacing: -0.015em;
+}
+
+/* Paper textures & subtle grids */
+.bg-warm-canvas {
+  background-color: #fdfbf7;
+}
+
+.bg-notebook-dots {
+  background-image: radial-gradient(#d8d2c6 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+.bg-notebook-grid {
+  background-image: 
+    linear-gradient(to right, rgba(232, 227, 218, 0.6) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(232, 227, 218, 0.6) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Arch Shape mask for architectural school aesthetic */
+.arch-frame {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Glassmorphism helpers */
+.glass-header {
+  background: rgba(253, 251, 247, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(232, 227, 218, 0.85);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(232, 227, 218, 0.9);
+}
+
+/* Floating animation for hero chips */
+@keyframes softFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-soft-float {
+  animation: softFloat 4s ease-in-out infinite;
+}
+
+.animate-soft-float-delayed {
+  animation: softFloat 5s ease-in-out 1.5s infinite;
+}
+
+/* Focus visible styles for high accessibility */
+*:focus-visible {
+  outline: 3px solid #d97706;
+  outline-offset: 3px;
+}
+
+/* Custom horizontal scrollbar hiding for tabs & carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Skip link for keyboard users */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: #132a54;
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  z-index: 9999;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+  top: 1rem;
 }
