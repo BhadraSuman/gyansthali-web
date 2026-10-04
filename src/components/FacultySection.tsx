@@ -69,7 +69,7 @@ export default function FacultySection() {
 
               <div className="mt-5 pt-3 border-t border-dashed border-slate-200 text-center">
                 <span className="text-[11px] font-mono text-slate-400">
-                  Profile Slot • Photo & Bio [EDIT]
+                  Profile Slot • Photo & Bio
                 </span>
               </div>
             </div>

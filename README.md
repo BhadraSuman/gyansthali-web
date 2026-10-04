@@ -88,7 +88,7 @@ npm start
 
 ---
 
-## 📋 Checklist for School Management (`[EDIT]` Placeholders)
+## 📋 Checklist for School Management (Items to Customise)
 
 - [ ] **Affiliation:** Confirm official recognition/affiliation certificate (JAC / State Board / CBSE).
 - [ ] **Official Contact:** Provide official school phone, WhatsApp number, and administrative email.

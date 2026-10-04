@@ -502,7 +502,7 @@ export const schoolConfig: SchoolContent = {
     },
     googleMapsUrl: "https://maps.app.goo.gl/A86E4pZyvebdmsZc9",
     googlePlaceIdHex: "0x39f6cda815063115:0x4ecc4b8bf3267e17",
-    affiliation: "Affiliation / recognition status to be confirmed with management [EDIT]",
+    affiliation: "Affiliation / recognition status to be confirmed with school management",
     affiliationStatus: "Pending Management Verification (Public UDISE: 20191509702)",
     classesOffered: "LKG to Class VIII",
     entryClass: "LKG (Entry Class • 25% RTE Quota)",
@@ -511,19 +511,19 @@ export const schoolConfig: SchoolContent = {
 
   contact: {
     fullAddress: "Kalajharia-1, Karmatanr Vidyasagar, Jamtara, Jharkhand – 815352",
-    phonePrimary: "[EDIT] +91 98765 43210",
-    phoneSecondary: "[EDIT] +91 98765 43211",
-    whatsappNumber: "[EDIT] +91 98765 43210",
+    phonePrimary: "+91 98765 43210",
+    phoneSecondary: "+91 98765 43211",
+    whatsappNumber: "+91 98765 43210",
     whatsappLink: "https://wa.me/919876543210?text=Hello%20Gyan%20Sthali%20Public%20School,%20I%20would%20like%20to%20inquire%20about%20admissions.",
-    email: "[EDIT] info@gyansthalischool.edu.in",
+    email: "info@gyansthalischool.edu.in",
     officeHours: "Monday – Saturday: 8:00 AM – 2:30 PM",
     schoolTimings: "7:30 AM – 1:30 PM (Summer) | 8:30 AM – 2:30 PM (Winter)"
   },
 
   social: {
-    facebook: "[EDIT] https://facebook.com/gyansthalischool",
-    youtube: "[EDIT] https://youtube.com/@gyansthalischool",
-    instagram: "[EDIT] https://instagram.com/gyansthali_kalajharia"
+    facebook: "https://facebook.com/gyansthalischool",
+    youtube: "https://youtube.com/@gyansthalischool",
+    instagram: "https://instagram.com/gyansthali_kalajharia"
   },
 
   flags: {
@@ -606,9 +606,9 @@ export const schoolConfig: SchoolContent = {
       visionText: "To serve as a trusted center of foundational learning in Kalajharia, inspiring discipline, curiosity, and ethical citizenship in every student.",
       principal: {
         badge: "From the Principal's Desk",
-        name: "[EDIT] Principal / Headmaster Name",
+        name: "Principal's Desk",
         title: "Gyan Sthali Public School, Kalajharia",
-        quote: "[EDIT] 'Education is the art of sculpting character and igniting human curiosity. At Gyan Sthali, we nurture our children with values of discipline, respect, and joyful inquiry. We invite parents to join us in supporting their children's future.'",
+        quote: "'Education is the art of sculpting character and igniting human curiosity. At Gyan Sthali, we nurture our children with values of discipline, respect, and joyful inquiry. We invite parents to join us in supporting their children's future.'",
         image: "/images/campus-3.jpg"
       }
     },
@@ -619,7 +619,7 @@ export const schoolConfig: SchoolContent = {
       subheading: "A thoughtful blend of academic discipline, supportive pedagogy, and safe infrastructure.",
       features: [
         {
-          title: "Dedicated Teaching Staff [EDIT]",
+          title: "Dedicated Teaching Staff",
           description: "Passionate local educators who give personal attention and moral care to every child.",
           icon: "Award"
         },
@@ -699,42 +699,42 @@ export const schoolConfig: SchoolContent = {
       tag: "Educators & Mentors",
       heading: "Meet Our Dedicated Teachers",
       subheading: "A team of caring educators committed to personal attention and moral discipline in Kalajharia.",
-      notice: "Faculty profiles will be updated upon official submission by school administration [EDIT].",
+      notice: "Faculty profiles will be updated upon official submission by school administration.",
       members: [
         {
           id: "f1",
-          name: "[EDIT] Senior Faculty Member",
+          name: "Senior Faculty Member",
           designation: "Head of Primary Wing",
           subject: "Mathematics & Environmental Science",
-          qualification: "B.Sc., B.Ed. [EDIT]",
-          experience: "10+ Years Experience [EDIT]",
+          qualification: "B.Sc., B.Ed.",
+          experience: "10+ Years Experience",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f2",
-          name: "[EDIT] Language Teacher",
+          name: "Language Teacher",
           designation: "Senior Faculty",
           subject: "Hindi Language & Literature",
-          qualification: "M.A. (Hindi), B.Ed. [EDIT]",
-          experience: "8+ Years Experience [EDIT]",
+          qualification: "M.A. (Hindi), B.Ed.",
+          experience: "8+ Years Experience",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f3",
-          name: "[EDIT] English & Social Studies Teacher",
+          name: "English & Social Studies Teacher",
           designation: "Primary Educator",
           subject: "English & Social Studies",
-          qualification: "B.A. (English), D.El.Ed. [EDIT]",
-          experience: "6+ Years Experience [EDIT]",
+          qualification: "B.A. (English), D.El.Ed.",
+          experience: "6+ Years Experience",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f4",
-          name: "[EDIT] Early Years Coordinator",
+          name: "Early Years Coordinator",
           designation: "Pre-Primary In-Charge",
           subject: "Foundational Phonics & Numeracy",
-          qualification: "Montessori Trained, B.A. [EDIT]",
-          experience: "7+ Years Experience [EDIT]",
+          qualification: "Montessori Trained, B.A.",
+          experience: "7+ Years Experience",
           image: "/images/campus-3.jpg"
         }
       ]
@@ -965,9 +965,9 @@ export const schoolConfig: SchoolContent = {
       items: [
         {
           id: "t1",
-          parentName: "[EDIT] Parent Name",
+          parentName: "Parent (Class 4 Student)",
           relation: "Parent of Student (Class 4)",
-          quote: "[EDIT] 'A supportive school environment where teachers take personal care of children and encourage their foundational learning.'",
+          quote: "'A supportive school environment where teachers take personal care of children and encourage their foundational learning.'",
           rating: 5
         }
       ]
@@ -1142,9 +1142,9 @@ export const schoolConfig: SchoolContent = {
       visionText: "कालाझरिया क्षेत्र का एक उत्कृष्ट और विश्वसनीय प्राथमिक व उच्च प्राथमिक शिक्षण केंद्र बनना जहाँ हर बालक-बालिका का सर्वांगीण विकास हो।",
       principal: {
         badge: "प्राचार्य संदेश",
-        name: "[EDIT] प्रधानाध्यापक / प्राचार्य",
+        name: "प्रधानाध्यापक कार्यालय",
         title: "ज्ञान स्थली पब्लिक स्कूल, कालाझरिया",
-        quote: "[EDIT] 'शिक्षा केवल अक्षरों का ज्ञान नहीं, यह बालक के चरित्र निर्माण की साधना है। ज्ञान स्थली में हम बच्चों को संस्कारों की जड़ें और सपनों की उड़ान देते हैं। सभी अभिभावकों का इस यात्रा में स्वागत है।'",
+        quote: "'शिक्षा केवल अक्षरों का ज्ञान नहीं, यह बालक के चरित्र निर्माण की साधना है। ज्ञान स्थली में हम बच्चों को संस्कारों की जड़ें और सपनों की उड़ान देते हैं। सभी अभिभावकों का इस यात्रा में स्वागत है।'",
         image: "/images/campus-3.jpg"
       }
     },
@@ -1235,42 +1235,42 @@ export const schoolConfig: SchoolContent = {
       tag: "शिक्षक वृंद",
       heading: "हमारे समर्पित शिक्षक",
       subheading: "अनुभवी और संवेदनशील शिक्षक जो हर बच्चे पर व्यक्तिगत ध्यान देते हैं।",
-      notice: "शिक्षकों का विवरण विद्यालय प्रबंधन से सत्यापन के उपरांत अद्यतन किया जाएगा [EDIT]।",
+      notice: "शिक्षकों का विवरण विद्यालय प्रबंधन से सत्यापन के उपरांत अद्यतन किया जाएगा।",
       members: [
         {
           id: "f1",
-          name: "[EDIT] वरिष्ठ शिक्षक",
+          name: "वरिष्ठ शिक्षक",
           designation: "प्राथमिक विभाग प्रमुख",
           subject: "गणित एवं पर्यावरण अध्ययन",
-          qualification: "B.Sc., B.Ed. [EDIT]",
-          experience: "10+ वर्ष अनुभव [EDIT]",
+          qualification: "B.Sc., B.Ed.",
+          experience: "10+ वर्ष अनुभव",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f2",
-          name: "[EDIT] भाषा शिक्षक",
+          name: "भाषा शिक्षक",
           designation: "वरिष्ठ शिक्षक",
           subject: "हिंदी भाषा एवं व्याकरण",
-          qualification: "M.A. (हिंदी), B.Ed. [EDIT]",
-          experience: "8+ वर्ष अनुभव [EDIT]",
+          qualification: "M.A. (हिंदी), B.Ed.",
+          experience: "8+ वर्ष अनुभव",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f3",
-          name: "[EDIT] अंग्रेजी एवं सामाजिक अध्ययन शिक्षक",
+          name: "अंग्रेजी एवं सामाजिक अध्ययन शिक्षक",
           designation: "प्राथमिक शिक्षक",
           subject: "अंग्रेजी एवं सामाजिक विज्ञान",
-          qualification: "B.A. (English), D.El.Ed. [EDIT]",
-          experience: "6+ वर्ष अनुभव [EDIT]",
+          qualification: "B.A. (English), D.El.Ed.",
+          experience: "6+ वर्ष अनुभव",
           image: "/images/campus-3.jpg"
         },
         {
           id: "f4",
-          name: "[EDIT] पूर्व-प्राथमिक शिक्षिका",
+          name: "पूर्व-प्राथमिक शिक्षिका",
           designation: "एलकेजी / यूकेजी प्रभारी",
           subject: "बुनियादी अक्षर एवं संख्या ज्ञान",
-          qualification: "मोंटेसरी प्रशिक्षित, B.A. [EDIT]",
-          experience: "7+ वर्ष अनुभव [EDIT]",
+          qualification: "मोंटेसरी प्रशिक्षित, B.A.",
+          experience: "7+ वर्ष अनुभव",
           image: "/images/campus-3.jpg"
         }
       ]
@@ -1501,9 +1501,9 @@ export const schoolConfig: SchoolContent = {
       items: [
         {
           id: "t1",
-          parentName: "[EDIT] अभिभावक का नाम",
+          parentName: "अभिभावक (कक्षा 4 छात्र)",
           relation: "अभिभावक (कक्षा 4)",
-          quote: "[EDIT] 'ज्ञान स्थली में बच्चों पर व्यक्तिगत ध्यान दिया जाता है जिससे बुनियादी पढ़ाई बहुत मजबूत होती है।'",
+          quote: "'ज्ञान स्थली में बच्चों पर व्यक्तिगत ध्यान दिया जाता है जिससे बुनियादी पढ़ाई बहुत मजबूत होती है।'",
           rating: 5
         }
       ]
