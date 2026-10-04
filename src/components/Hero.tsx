@@ -3,7 +3,7 @@
 import React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import SchoolImage from './SchoolImage';
-import { Sparkles, ChevronDown, CheckCircle2, ShieldCheck, Heart, BookOpen } from 'lucide-react';
+import { Sparkles, ChevronDown, CheckCircle2, BookOpen } from 'lucide-react';
 
 export default function Hero() {
   const { t } = useLanguage();
@@ -25,12 +25,6 @@ export default function Hero() {
           
           {/* Left Column: Headlines & CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start text-left z-10">
-            
-            {/* Verified UDISE & Est. Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 sm:px-4 py-1.5 rounded-full bg-amber-50 border border-amber-300 text-amber-900 text-[11px] sm:text-xs font-bold shadow-xs mb-5 sm:mb-6 hover:bg-amber-100 transition-colors max-w-full">
-              <span className="flex h-2 w-2 rounded-full bg-[#D97706] animate-pulse flex-shrink-0" />
-              <span className="truncate">{t.hero.badge}</span>
-            </div>
 
             {/* Main Hero Headline (Newsreader Serif) */}
             <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-serif font-bold text-[#132A54] leading-[1.15] sm:leading-[1.12] tracking-tight mb-4 sm:mb-5">
@@ -127,27 +121,6 @@ export default function Hero() {
                   className="w-full h-full object-cover"
                 />
               </div>
-
-              {/* Floating Pill Chip 1: Safe Campus */}
-              <div className="absolute top-1/4 -left-2 sm:-left-6 z-30 bg-white/95 backdrop-blur-md py-1.5 sm:py-2 px-3 sm:px-3.5 rounded-2xl shadow-lg border border-[#E8E3DA] flex items-center gap-1.5 sm:gap-2 animate-soft-float max-w-[85vw]">
-                <div className="p-1 sm:p-1.5 rounded-xl bg-emerald-100 text-emerald-800 flex-shrink-0">
-                  <ShieldCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                </div>
-                <div className="text-[11px] sm:text-xs font-bold text-[#1E293B] whitespace-nowrap truncate">
-                  {t.hero.floatingChips.chip1}
-                </div>
-              </div>
-
-              {/* Floating Pill Chip 2: Caring Teachers */}
-              <div className="absolute bottom-1/4 -right-2 sm:-right-6 z-30 bg-white/95 backdrop-blur-md py-1.5 sm:py-2 px-3 sm:px-3.5 rounded-2xl shadow-lg border border-[#E8E3DA] flex items-center gap-1.5 sm:gap-2 animate-soft-float-delayed max-w-[85vw]">
-                <div className="p-1 sm:p-1.5 rounded-xl bg-amber-100 text-amber-900 flex-shrink-0">
-                  <Heart className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                </div>
-                <div className="text-[11px] sm:text-xs font-bold text-[#1E293B] whitespace-nowrap truncate">
-                  {t.hero.floatingChips.chip2}
-                </div>
-              </div>
-
             </div>
 
           </div>
